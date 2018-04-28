@@ -48,6 +48,7 @@ public class CalculadoraTest {
 		  System.out.println("Se hizo la multiplicacion correctamente");
 		  assertEquals(4 ,basicCalc.division(num1, num2));
 		  System.out.println("Se hizo la division correctamente");
+		  
 	  }
 	  
 	  @Test
@@ -67,11 +68,9 @@ public class CalculadoraTest {
 
 			when(calc.division(20, 2)).thenReturn(3);
 		    assertEquals(3,calc.division(20, 2));
-
-		}
 		
-	  
-	  
+		}
+
 	  /*
 	  @Test
 	  @DisplayName("Prueba Metodo Suma")
